@@ -101,18 +101,153 @@ input, select {
     vertical-align:middle;
 }
 /*This Is Where My Personal Style Sheet Begins*/
-h1 {color: grey;
-  font-size: 50px;
-  margin: 0px;
-  text-align: center;
-  }
-.basic{
-  font-size: 20px;
-  color: white;
+body{
+  background-color: #282c34;
+}
+header{
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: black;
+}
+nav{
+  float: left;
+}
+nav li{
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
 }
 
-.about_me{
+nav a{
+  color: #a1b1be;
+  text-decoration: none;
+  text-transform: uppercase;
   font-size: 20px;
+}
+nav a:hover{
   color: white;
+}
+.space{
+  margin: 100px;
+}
 
-   {
+.basic{
+  color: #a1b1be;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.profile_picture{
+  margin: 20px;
+  }
+
+.about_me{
+  color: #a1b1be;
+  font-size: 20px;
+  margin: 20px;
+}
+.interestinit{
+  color: #a1b1be;
+  font-size: 20px;
+  margin: 20px;
+}
+.ideal_job_text{
+  color: #a1b1be;
+  font-size: 20px;
+  margin: 20px;
+}
+.job_add{
+  margin: 20px;
+}
+.mbtest{
+  margin: 20px;
+}
+.space{
+  line-height: 100px;
+}
+.reflection{
+  color: #a1b1be;
+  font-size: 20px;
+  margin: 20px;
+}
+.mblink{
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 20px;
+}
+.tclink{
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 20px;
+}
+.tctest{
+  margin: 20px;
+}
+.lstest{
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 20px;
+}
+.leaning_style{
+  margin: 20px;
+}
+.yeschef{
+  margin: 20px;
+  color: #6d2459;
+  font-size: 30px;
+  background-color:#2a2727;
+  text-align: center;
+  padding-bottom: 25px;
+
+}
+.overview{
+  color: #a1a9b5;
+  font-size: 20px;
+  margin: 20px
+}
+.motivation{
+  color: #a1a9b5;
+  font-size: 20px;
+  margin: 20px
+}
+.description{
+  color: #a1a9b5;
+  font-size: 20px;
+  margin: 20px
+}
+.destab{
+  color: #a1b1be;
+  font-size: 20px;
+  margin-left: 60px;
+}
+.toolstech{
+  color: #a1b1be;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.skills{
+  font-size: 20px;
+  color: #a1b1be;
+  margin-left: 20px;
+  }
+.outcome{
+  font-size: 20px;
+  color: #a1b1be;
+  margin-left: 20px;
+}
+.top{
+  width: 100%;
+  background-color: #2a2727;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 20px;
+}
+.refrence{
+  background-color: black;
+  margin: 20px;
+  font-size: 20px;
+
+
+}
